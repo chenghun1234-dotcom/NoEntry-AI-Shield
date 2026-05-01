@@ -1,0 +1,18 @@
+{
+  "name": "no-entry-ai-shield",
+  "version": "1.0.0",
+  "description": "AI Prompt Firewall API - The Gatekeeper",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {
+    "hono": "^4.0.0"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0",
+    "@cloudflare/workers-types": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}
